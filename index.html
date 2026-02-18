@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Sahil Neupane | Developer Portfolio</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Sahil Neupane</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="nav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO / SUMMARY -->
+<section id="summary" class="py-5 bg-light">
+  <div class="container text-center">
+    <h1 class="display-5 fw-bold">Software Developer Portfolio</h1>
+        <h3>Hii I am Sahil Neupane</h2>
+    <p class="lead mt-3">
+      Computer Systems Technician - Software Support student at Mohawk College passionate about software development and creating practical applications using 
+      modern technologies. I enjoy solving problems, learning new technologies, and building efficient software solutions. I thrive in environments where I can grow and continuously improve, rather than remaining static over time.
+    </p>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="py-5">
+<div class="container">
+<h2 class="text-center mb-4">Education</h2>
+
+<div class="card shadow-sm">
+  <div class="card-body">
+    <h5 class="card-title">Mohawk College</h5>
+    <p class="card-text">
+      Computer Systems Technician – Software Support<br>
+      Hamilton, Ontario | Jan 2025 – Present
+    </p>
+  </div>
+</div>
+
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-5 bg-light">
+<div class="container">
+<h2 class="text-center mb-4">Skills</h2>
+
+<div class="row g-4 text-center">
+
+<!-- Programming Languages -->
+<div class="col-md-3"><div class="card p-3 shadow-sm">Java</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">C#</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">JavaScript</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">Python</div></div>
+
+<!-- Web Development -->
+<div class="col-md-3"><div class="card p-3 shadow-sm">HTML5</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">CSS3</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">Bootstrap</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">ASP.NET (C#)</div></div>
+
+<!-- Backend & Databases -->
+<div class="col-md-3"><div class="card p-3 shadow-sm">Server-Side Development</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">Database Theory</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">SQL</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">Algorithms Building</div></div>
+
+<!-- Tools & Platforms -->
+<div class="col-md-3"><div class="card p-3 shadow-sm">Git & GitHub</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">WordPress (CMS)</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">Software Testing & Debugging</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">UI/UX Design</div></div>
+
+<!-- Concepts -->
+<div class="col-md-3"><div class="card p-3 shadow-sm">Object-Oriented Programming</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">Data Structures & Algorithms</div></div>
+<div class="col-md-3"><div class="card p-3 shadow-sm">Project Management (IT)</div></div>
+
+</div>
+</div>
+</section>
+
+  
+<!-- PROJECTS -->
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Projects</h2>
+
+    <!-- Map Application -->
+         <a href="https://map-application1.netlify.app/" target="_blank" class="btn btn-primary mt-3 mb-3">
+  View Project
+</a>
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="card-title">Map Application</h5>
+            <p class="card-text">
+              Developed a fully interactive map application using Google Maps API and the browser’s Navigator API to provide a dynamic, location-aware user experience.
+            </p>
+
+            <h6>Key Features:</h6>
+            <ul>
+              <li>Displayed multiple markers using <code>AdvancedMarkerElement</code>, with location data from City of Hamilton public library JSON datasets.</li>
+              <li>Enabled user geolocation via the Navigator API with a custom marker showing current position.</li>
+              <li>Integrated Google Maps Directions API for turn-by-turn directions between selected locations.</li>
+              <li>Used Fetch API to retrieve data from public APIs and dynamically populate the map.</li>
+              <li>Implemented info windows displaying detailed location information for each marker.</li>
+            </ul>
+
+            <h6>Technical Highlights:</h6>
+            <ul>
+              <li>JavaScript for dynamic data fetching, DOM manipulation, and interactions</li>
+              <li>Google Maps API for rendering maps, markers, and directions</li>
+              <li>Browser Navigator API for geolocation</li>
+              <li>JSON data integration from public datasets</li>
+              <li>Responsive interface styled with Bootstrap</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+      
+ 
+
+    <!-- Azure Function Project -->
+      <a href="https://text-translation1.netlify.app/" target="_blank" class="btn btn-primary mt-3 mb-3">
+  View Project
+</a>
+<div class="row mb-5">
+  <div class="col-12">
+    <div class="card h-100 shadow">
+      <div class="card-body">
+        <h5 class="card-title">Serverless Text-Translation Website with Azure Function</h5>
+        <p class="card-text">
+          Developed a web application that interacts with an Azure Function, simulating a real-world serverless environment.
+        </p>
+
+        <h6>Key Features:</h6>
+        <ul>
+          <li>Azure Function acts as a serverless controller, processing requests from the front-end and returning external API responses.</li>
+          <li>Built with Node.js using serverless architecture for lightweight deployment.</li>
+          <li>Simulated a global server environment to demonstrate front-end and back-end communication beyond a local machine.</li>
+          <li>Integrated with GitHub for automated deployment and version control.</li>
+        </ul>
+
+        <h6>Technical Highlights:</h6>
+        <ul>
+          <li>Serverless computing using Azure Functions</li>
+          <li>Node.js for server-side logic</li>
+          <li>API integration and request handling</li>
+          <li>Cloud deployment and GitHub CI/CD workflow</li>
+          <li>Responsive design styled with Bootstrap</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+    
+
+  </div>
+</section>
+<!-- RESUME -->
+<section id="resume" class="py-5 bg-light text-center">
+<div class="container">
+<h2 class="mb-4">Resume</h2>
+
+<a href="resume.pdf" target="_blank" class="btn btn-primary btn-lg">
+View Resume
+</a>
+
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-5">
+<div class="container text-center">
+<h2 class="mb-4">Contact Information</h2>
+
+<p>Email: sahil.neupane67@gmail.com</p>
+<p>GitHub: <a href="https://github.com/sahilneupane7">https://github.com/sahilneupane7</a></p>
+<p>LinkedIn: <a href="https://linkedin.com/in/sahilNeupane7">https://linkedin.com/in/sahilNeupane7</a></p>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3">
+© 2026 Sahil Neupane
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
